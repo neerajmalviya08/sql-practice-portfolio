@@ -1,0 +1,12 @@
+-- BASIC SQL QUERIES
+
+SELECT *
+FROM Employees;
+
+SELECT *
+FROM Employees
+WHERE Salary > 70000;
+
+SELECT *
+FROM Employees
+ORDER BY Salary DESC;
