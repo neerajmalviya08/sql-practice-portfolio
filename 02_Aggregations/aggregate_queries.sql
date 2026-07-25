@@ -1,6 +1,7 @@
 -- SQL PRACTICE PORTFOLIO
 -- Topic: Aggregate Functions
 -- Database: MySQL
+-- Author: Neeraj Malviya
 
 
 -- Q1. Count the total number of employees
@@ -9,7 +10,7 @@ SELECT COUNT(emp_Id)
 FROM Employees;
 
 
--- Q2. Calculate the total salary of all employees
+-- Q2. Calculate the total salary
 
 SELECT SUM(Salary)
 FROM Employees;
